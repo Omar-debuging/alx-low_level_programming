@@ -6,6 +6,8 @@
  *
  * Return: the result
  */
+
+int actual_sqrt_recursion(int n, int i);
 int _sqrt_recursion(int n)
 {
 	if (n < 0)
@@ -21,7 +23,7 @@ int _sqrt_recursion(int n)
  *
  * Return: the resulting square root
  */
-int actual_sqrt_recursion(int n, int i);
+
 int actual_sqrt_recursion(int n, int i)
 {
 	if (i * i > n)
