@@ -1,5 +1,5 @@
 #include "main.h"
-
+int actual_prime(int n, int i);
 /**
  * is_prime_number - check if an integer is a prime number or not
  * @n: number input
@@ -21,7 +21,7 @@ int is_prime_number(int n)
  *
  * Return: 1 if n is prime, 0 if not
  */
-int actual_prime(int n, int i);
+
 int actual_prime(int n, int i)
 {
 	if (i == 1)
