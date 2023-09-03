@@ -8,6 +8,7 @@
  *
  * Return: Always 0 (Success)
  */
+int check_num(char *str);
 int check_num(char *str)
 {
 	unsigned int count;
@@ -50,7 +51,6 @@ int main(int argc, char *argv[])
 			str_to_int = atoi(argv[count]); 
 			sum += str_to_int;
 		}
-
 		else
 		{
 			printf("Error\n");
@@ -60,9 +60,6 @@ int main(int argc, char *argv[])
 		count++;
 	}
 
-	printf("%d\n", sum); 
-
+	printf("%d\n", sum);
 	return (0);
 }
-
-
