@@ -4,9 +4,9 @@
 
 /**
  *_strdup - duplicate to new memory space location
- *@str: string given as a parameter
  *Description: duplicate a string to a new memory
- *return: 0
+ *@str: string given as a parameter
+ *Return: NULL fail pointer to a new string
  */
 
 char *_strdup(char *str)
