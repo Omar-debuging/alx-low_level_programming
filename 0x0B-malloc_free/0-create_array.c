@@ -1,12 +1,18 @@
 #include <stdio.h>
 #include <stdlib.h>
+/**
+ * create_array - create array of size  and initilize it with char c
+ * @size: size of array
+ * @c: char to assign
+ * Return: pointer to array, if the pointer or size are NULL fail
+ */
+
 char *create_array(unsigned int size, char c);
-void simple_print_buffer(char *buffer, unsigned int size);
 char *create_array(unsigned int size, char c)
 {
     char *ptr;
+    int i;
     ptr = (char*)malloc(sizeof(char) * size);
-    int i =0;
     if (size == 0 || ptr == NULL)
         {
             return (NULL);
